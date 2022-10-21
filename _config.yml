@@ -26,9 +26,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://danmeal.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  danmeal
 linkedin_username: danielbradygb
+remote_theme: hydecorp/hydejack@v9
 
 # Build settings
-theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
 
