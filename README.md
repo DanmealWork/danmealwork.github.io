@@ -11,3 +11,10 @@ Deployments are handled automatically via Github Pages
 
 # Acknowledgements
 - Background images from [https://unsplash.com/photos/Ptd-iTdrCJM](https://unsplash.com/photos/Ptd-iTdrCJM)
+
+# Misc
+export JEKYLL_VERSION=3.8
+docker run --rm \
+  --volume="$PWD:/srv/jekyll:Z" \
+  -it jekyll/jekyll:$JEKYLL_VERSION \
+  jekyll build
