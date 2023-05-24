@@ -2,6 +2,10 @@
 layout: page
 title: Showcase
 permalink: /showcase/
+
+video-successful-takeoff-launch-rail: 1DanLxaXcnzxI9pfociGuwzN3So7EkmXQ/preview
+video-plane-stable-during-flight: 16XfA4-YteCx9BJnC2j4rX-ZZ8svJrrhq/preview
+
 ---
 
 ![Non-premixed combustion simulated in ANSYS Fluent](/assets/img/non-premixed-combustion-simulated-in-ansys-fluent.png)
@@ -28,3 +32,24 @@ permalink: /showcase/
 ![External supersonic flow around a rocket simulated in ANSYS Fluent](/assets/img/external-supersonic-flow-rocket-simulated-ansys-fluent.png)
 
 **External supersonic flow around a rocket simulated in ANSYS Fluent**
+
+
+
+
+![Plane ready for flight](/assets/img/plan-on-ramp.jpeg)
+
+**Plane ready for flight**
+
+
+
+
+{% include googleDrivePlayer.html id=page.video-successful-takeoff-launch-rail %}
+
+**Successful take off from the launch rail**
+
+
+
+
+{% include googleDrivePlayer.html id=page.video-plane-stable-during-flight %}
+
+**Plane stable during flight**
