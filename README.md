@@ -16,5 +16,6 @@ Deployments are handled automatically via Github Pages
 export JEKYLL_VERSION=3.8
 docker run --rm \
   --volume="$PWD:/srv/jekyll:Z" \
+  -p 4000:4000 \
   -it jekyll/jekyll:$JEKYLL_VERSION \
-  jekyll build
+  jekyll serve
