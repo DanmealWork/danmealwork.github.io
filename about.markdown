@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-4th year Aerospace Engineering student at the University of Central Lancashire. 
+I am a fourth-year Aerospace Engineering student at the University of Central Lancashire, specializing in Computational Fluid Dynamics (CFD). Throughout my academic journey, ANSYS Fluent, a powerful CFD software, has been integral to my work in both my third and fourth-year projects.
 
-I’ve been interested in rocket engines for a long time now, with an itch for years to do some practical rocketry. That itch came to fruition in college when I did my Extended Project Qualification (EPQ) in college. In that project, I applied basic rocket science to try and build a reusable model rocket powered by solid fuel motors.
+During my third year, I conducted comprehensive simulations and analysis to investigate the flow characteristics within a custom-designed rocket nozzle, leveraging the capabilities of ANSYS Fluent. These simulations provided valuable insights into the internal conditions of the nozzle. In my fourth-year project, I utilized ANSYS Fluent to accurately predict and analyze the aerodynamic properties of a morphing wing.
 
-ANSYS Fluent was used for my 3rd year project at UCLan in which I designed a nozzle for a theoretical rocket engine, and examined the supersonic flow properties within the nozzle. Currently, I’m using ANSYS Fluent to examine the airflow around a wing that will morph to change aerofoil shape mid-flight for my 4th year group project.
+To further augment my expertise in CFD, I have actively pursued additional education through Udemy courses led by Dr. Aidan Wimshurst. These courses have equipped me with a deep understanding of the underlying principles and functionalities of CFD solvers. Moreover, recognizing the prominence of OpenFOAM as a widely used CFD package, I have independently acquired proficiency in its application, extending my capabilities within the field.
 
-In my free time I’m working on a course for an introduction to OpenFoam on Udemy by Philip Baldock, with the aim in the future to be proficient in 2 different CFD solvers.
+Throughout my academic journey, I have demonstrated proficiency in utilizing Solidworks for various 3D modeling tasks, effectively translating these skills to other software platforms. Additionally, I have leveraged the capabilities of Overleaf, an online LaTeX editor, to produce high-quality and professional documents.
