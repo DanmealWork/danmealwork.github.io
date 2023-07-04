@@ -13,3 +13,5 @@ Computational Fluid Dynamics Fundamentals Course 2: [https://tinyurl.com/mry7v6n
 Computational Fluid Dynamics Fundamentals Course 3: [https://tinyurl.com/3uxw4wm6](https://tinyurl.com/3uxw4wm6)
 
 Computational Fluid Dynamics (CFD) for Professionals: [https://tinyurl.com/257s2z8y](https://tinyurl.com/257s2z8y)
+
+OpenFOAM Intermediate: [https://tinyurl.com/2vfwdkrx](https://tinyurl.com/2vfwdkrx)
