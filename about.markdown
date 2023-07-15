@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a fourth-year Aerospace Engineering student at the University of Central Lancashire, specializing in Computational Fluid Dynamics (CFD). Throughout my academic journey, ANSYS Fluent, a powerful CFD software, has been integral to my work in both my third and fourth-year projects.
+I am a recent University of Central Lancashire graduate with an MEng (Hons) in Aerospace Engineering, specializing in Computational Fluid Dynamics (CFD). Throughout my academic journey, ANSYS Fluent, a powerful CFD software, has been integral to my work in both my third and fourth-year projects.
 
 During my third year, I conducted comprehensive simulations and analysis to investigate the flow characteristics within a custom-designed rocket nozzle, leveraging the capabilities of ANSYS Fluent. These simulations provided valuable insights into the internal conditions of the nozzle. In my fourth-year project, I utilized ANSYS Fluent to accurately predict and analyze the aerodynamic properties of a morphing wing.
 
