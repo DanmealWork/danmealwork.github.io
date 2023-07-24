@@ -2,6 +2,7 @@
 layout: page
 title: OpenFOAM
 permalink: /showcase/openfoam
+collection: do_not_list
 
 video-vortex-shedding-10-ms: 1OnF7V0OzpxL47c92om7zEwQWAMvdgrfV/preview
 video-vortex-shedding-25-ms: 1JGRmhWOhfGypBuRmngHFfTNxtpFhChtg/preview

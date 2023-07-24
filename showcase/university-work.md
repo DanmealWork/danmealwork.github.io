@@ -2,6 +2,7 @@
 layout: page
 title: University Work
 permalink: /showcase/university work
+collection: do_not_list
 
 video-successful-takeoff-launch-rail: 1DanLxaXcnzxI9pfociGuwzN3So7EkmXQ/preview
 video-plane-stable-during-flight: 16XfA4-YteCx9BJnC2j4rX-ZZ8svJrrhq/preview
@@ -26,4 +27,3 @@ video-plane-stable-during-flight: 16XfA4-YteCx9BJnC2j4rX-ZZ8svJrrhq/preview
 {% include googleDrivePlayer.html id=page.video-plane-stable-during-flight %}
 
 **Plane stable during flight**
-

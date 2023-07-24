@@ -2,6 +2,7 @@
 layout: page
 title: ANSYS Fluent
 permalink: /showcase/ansys fluent
+collection: do_not_list
 ---
 
 ![Non-premixed combustion simulated in ANSYS Fluent](/assets/img/non-premixed-combustion-simulated-in-ansys-fluent.png)
