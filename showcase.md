@@ -5,7 +5,7 @@ permalink: /showcase/
 
 ---
 
-In this showcase, you'll find a collection of my endeavors, including:
+Click on the links below to explore a collection of my work:
 
 - [University Work](university work)
 - [OpenFOAM](openfoam)
