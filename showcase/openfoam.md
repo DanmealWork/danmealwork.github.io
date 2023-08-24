@@ -11,7 +11,7 @@ video-reynolds-number-variation-cylinder-section-280: 1th-hWWlgHZjjbVd52CT12AiV0
 
 ---
 
-# Index
+# Contents List
 - [Variation of Reynolds Number Across a Cylinder Section](#variation-of-reynolds-number-across-a-cylinder-section)
 
 
@@ -60,3 +60,11 @@ Below show videos of each of the 4 simulations and a screenshot of T = 0.5s. For
 
 {% include googleDrivePlayer.html id=page.video-reynolds-number-variation-cylinder-section-280 %}
 
+## References
+[1] J. E. Matsson, An Introduction to ANSYS Fluent 2021, USA: SDC Publications, 2021
+
+[2] C. J. Greenshields and H. G. Weller, Notes on Computational Fluid Dynamics: General Principles, Reading: CFD Direct, 2022
+
+[3] S. Keough, Optimising the Parallelisation of OpenFOAM Simulations, Australian Government Maritime Division, 2014
+
+[4] S. Taneda, Experimental Investigation of the Wakes behind Cylinders and Plates at Low Reynolds Numbers, The Physical Society of Japan, Vol 11, 1956
