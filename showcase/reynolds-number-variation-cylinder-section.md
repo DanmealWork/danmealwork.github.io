@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OpenFOAM - Variation of Reynolds Number Across a Cylinder Section
-permalink: /showcase/openfoam/reynolds-number-variation-cylinder-section
+permalink: /showcase/reynolds-number-variation-cylinder-section
 collection: do_not_list
 
 video-reynolds-number-variation-cylinder-section-17-5: 1GMTQ51l1EbWxaIt2TLCuYibVnuTsmzhm/preview
