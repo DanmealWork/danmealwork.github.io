@@ -21,6 +21,32 @@ The mesh independence study results are displayed in the subsequent figures, det
 
 The percentage discrepancy between the theoretical and predicted drag coefficients for the mesh of ~6.5 million cells stood at 1.01%. For ~3.1 million cells, it was 3.34%, and for ~2.5 million cells, it was 13.71%. The ~6.5 million cell mesh required 1.605 hours for 500 iterations, while the ~3.1 million and ~2.5 million cell meshes took 0.76 and 0.64 hours respectively. At a glance, the ~3.1 million cell mesh might seem optimal in terms of precision and time. However, the average y+ for the ~3.1 million cell mesh was approximately 14.22 on the Ahmed body, which isn't satisfactory for the k-omega SST model close to the Ahmed body walls. Hence, the ~6.5 million cell mesh was chosen for subsequent simulations. Additionally, both the ~2.5 and ~3.1 million cell meshes struggled to accurately predict the recirculation zone at the body's rear, as demonstrated in the following figures.
 
+**Mesh Independence Study**
+![Mesh Independence Study](/assets/img/mis.png)
+
+
+**Y+ Graph**
+![Y+ Graph](/assets/img/yplus-graph.png)
+
+
+**Incorrect separation predictions at the rear of the body on 2.48M cells**
+![Incorrect separation predictions at the rear of the body on 2.48M cells](/assets/img/2-48-m-cells.png)
+
+
+**Correct separation of the flow on 6.4M cells**
+![Correct separation of the flow on 6.4M cells](/assets/img/6-4-m-cells.png)
+
+
+# Predicted Vortex Sheet
+![Vortices 1](/assets/img/vortices-1.png)
+
+
+![Vortices 2](/assets/img/vortices-2.png)
+
+
+![Vortices 3](/assets/img/vortices-3.png)
+
+
 # Issues During Early Simulations
 Early on in the mesh independent study, the following settings for the divSchemes in fvSchemes were used for initial testing:
 
