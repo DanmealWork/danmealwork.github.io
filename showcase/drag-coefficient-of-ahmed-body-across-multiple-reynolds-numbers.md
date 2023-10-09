@@ -54,7 +54,9 @@ The percentage discrepancy between the theoretical and predicted drag coefficien
 ![Correct separation of the flow on 6.4M cells](/assets/img/6-4-m-cells.png)
 
 
-# Predicted Vortex Sheet
+# Predicted Vortex Sheet & Drag Coefficient at Different Reynolds Numbers
+The following images shows the predicated vortext structures and result for the drag coefficient at different Reynolds numbers
+
 ![Vortices 1](/assets/img/vortices-1.png)
 
 
@@ -62,6 +64,9 @@ The percentage discrepancy between the theoretical and predicted drag coefficien
 
 
 ![Vortices 3](/assets/img/vortices-3.png)
+
+![Varying Reynolds Numbers](/assets/img/varying-reynolds-numbers.png)
+
 
 # Reducing The Drag Coefficient
 Investigations to reduce the drag coefficient included simple modifications to the Ahmed body, including
