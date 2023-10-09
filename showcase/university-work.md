@@ -12,9 +12,9 @@ video-plane-stable-during-flight: 16XfA4-YteCx9BJnC2j4rX-ZZ8svJrrhq/preview
 
 **Rocket nozzle I designed for my 3rd Year project at university**
 
-![Graph produced using Overleaf for deciding what CFD turbulence model to use](/assets/img/graph-produced-overleaf-deciding-cfd-turbulence-model.png)
+![Graph produced using Overleaf for deciding what CFD turbulence model to use for a simulation](/assets/img/graph-produced-overleaf-deciding-cfd-turbulence-model.png)
 
-**Graph produced using Overleaf for deciding what CFD turbulence model to use**
+**Graph produced using Overleaf for deciding what CFD turbulence model to use for a simulation**
 
 ![Plane that was constructed for my 4th year  group project with the aim of testing a morphing wing system](/assets/img/plan-on-ramp.jpeg)
 

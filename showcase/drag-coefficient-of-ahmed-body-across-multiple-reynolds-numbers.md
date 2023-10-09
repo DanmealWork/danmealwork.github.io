@@ -47,11 +47,11 @@ The percentage discrepancy between the theoretical and predicted drag coefficien
 
 
 *Incorrect separation predictions at the rear of the body on 2.48M cells*
-![Incorrect separation predictions at the rear of the body on 2.48M cells](/assets/img/2-48-m-cells.png)
+![Incorrect recirculation zone](/assets/img/2-48-m-cells.png)
 
 
 *Correct separation of the flow on 6.4M cells*
-![Correct separation of the flow on 6.4M cells](/assets/img/6-4-m-cells.png)
+![Correct recirculation zone](/assets/img/6-4-m-cells.png)
 
 
 # Predicted Vortex Sheet & Drag Coefficient at Different Reynolds Numbers
