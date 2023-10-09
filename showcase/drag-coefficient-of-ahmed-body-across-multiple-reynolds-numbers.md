@@ -6,6 +6,24 @@ collection: do_not_list
 
 ---
 
+<style>
+.image-container {
+    display: flex;
+    gap: 10px;
+}
+
+.image-container img {
+    width: 50%
+}
+
+/* Stack images on smaller screens */
+@media (max-width: 600px) {
+    .image-container {
+        flex-direction: column;
+    }
+}
+</style>
+
 # Overview
 This section presents CFD simulations performed on an Ahmed body with a rear slant angle of 25 degrees. The objectives were to accurately model flow over an Ahmed body at various Reynolds numbers and to explore potential improvements for reducing the drag coefficients. Initially, the results of the mesh-independent study and preceding simulations are presented, followed by discussions regarding the processes/decisions made throughout the project, challenges faced while running the simulations, and so on.
 
