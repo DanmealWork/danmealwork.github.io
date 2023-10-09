@@ -63,10 +63,17 @@ The percentage discrepancy between the theoretical and predicted drag coefficien
 
 ![Vortices 3](/assets/img/vortices-3.png)
 
-# Reducing Drag Coefficient
+# Reducing The Drag Coefficient
 Investigations to reduce the drag coefficient included simple modifications to the Ahmed body, including
 rounding regions on the top and the rear of the model. In total, 5 models were produced, named from A to
 E, with the following modifications:
+
+*Base Model:*
+<div class="image-container">
+    <div>
+        <img src="/assets/img/base-model.png" />
+    </div>    
+</div>
 
 *Model A - a 50mm fillet where the 25 degree slant begins*
 ![Model A - a 50mm fillet where the 25 degree slant begins](/assets/img/model-a.png)
@@ -173,6 +180,27 @@ vortex structures.
 bottom rear) and higher than Model C (due to the rounded top rear), as confirmed by the bar chart.
 - Notably, Model E, with three regions of curvature, has a higher predicted drag coefficient than
 Model D, suggesting that the features present in Models B and D don't work well together.
+
+
+**Results:**
+
+Results from the drag coefficient reduction modifications
+
+<div class="image-container">
+    <div>
+        <img src="/assets/img/bar-chart-results.png" />
+        <p></p>
+    </div>
+</div>
+
+<div class="image-container">
+    <div>
+        <img src="/assets/img/table-results.png" />
+        <p></p>
+    </div>
+</div>
+
+
 
 
 # Issues During Early Simulations
