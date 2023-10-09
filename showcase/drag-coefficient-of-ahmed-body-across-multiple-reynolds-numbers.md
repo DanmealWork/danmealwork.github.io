@@ -137,9 +137,9 @@ prominently over itself and have a wider vortex sheet.
 - Model C is expected to have a 6.0% lower drag coefficient compared to the base model.
 - The rounded bottom rear allows air to flow more smoothly, especially after the rear of the body (Figure 6 and 7)
 - Using an isometric view, the vortex structures from the underside of the model are seen to follow a
-straighter path
+straighter path (Figure 8 and 9)
 - The rounded bottom rear forces vortex structures on the edge of the body to meet with the side
-vortex structures (see Figure XXX).
+vortex structures.
 
 <div class="image-container">
     <div>
@@ -156,15 +156,16 @@ vortex structures (see Figure XXX).
 
 <div class="image-container">
     <div>
-        <img src="/assets/img/rounded-bottom.png" />
-        <p>Figure 6: </p>
+        <img src="/assets/img/iso-rounded-bottom.png" />
+        <p>Figure 8: With rounded bottom-rear</p>
     </div>
-    
+
     <div>
-        <img src="/assets/img/no-rounded-bottom.png" />
-        <p>Figure 7:</p>
+        <img src="/assets/img/iso-sharp-bottom.png" />
+        <p>Figure 9: Without rounded bottom-rear</p>
     </div>
 </div>
+
 
 **Model D & E:**
 - Models D and E share features with Models B and C, respectively.
