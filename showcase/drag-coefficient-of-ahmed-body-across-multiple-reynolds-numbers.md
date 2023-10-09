@@ -90,6 +90,90 @@ don’t have access to one. Below, you'll find a bar chart summarising the simul
 screenshots across the body and a brief summary of the finding from each model. From hereon, the
 unmodified Ahmed body will be referred to as ‘base model’.
 
+**Model A:**
+- Model A exhibits a 3.3% reduction in drag coefficient compared to the base model.
+- The sharp, convex turn on the base model disrupts airflow, causing the air to detach over the rear
+slant.
+- A side profile view clearly illustrates this difference (see Figures 1 and 2).
+
+<div class="image-container">
+    <div>
+        <img src="/assets/img/side-view-rounded.png" />
+        <p>Figure 1: With rounded top</p>
+    </div>
+    
+    <div>
+        <img src="/assets/img/side-view-sharp.png" />
+        <p>Figure 2: With sharp top</p>
+    </div>
+</div>
+
+
+**Model B:**
+- Model B is predicted to have a 3.3% higher drag coefficient compared to the base model.
+- Models with a similar feature to Model B cause side vortex structures to wrap around more (Figure 3)
+prominently over itself and have a wider vortex sheet.
+- A front/top view reveals this effect (Figure 4 and 5)
+
+<div class="image-container">
+    <div>
+        <img src="/assets/img/rounded-side-wrapping.png" />
+        <p>Figure 3: Vortex sheet wrapping more around itself</p>
+    </div>
+    
+    <div>
+        <img src="/assets/img/wider-sheet.jpeg" />
+        <p>Figure 4: Wider vortex sheet with rounded top-rear</p>
+    </div>
+
+    <div>
+        <img src="/assets/img/narrow-sheet.jpeg" />
+        <p>Figure 5: Narrower vortex sheet without rounded top-rear</p>
+    </div>
+</div>
+
+
+**Model C:**
+- Model C is expected to have a 6.0% lower drag coefficient compared to the base model.
+- The rounded bottom rear allows air to flow more smoothly, especially after the rear of the body (Figure 6 and 7)
+- Using an isometric view, the vortex structures from the underside of the model are seen to follow a
+straighter path
+- The rounded bottom rear forces vortex structures on the edge of the body to meet with the side
+vortex structures (see Figure XXX).
+
+<div class="image-container">
+    <div>
+        <img src="/assets/img/rounded-bottom.png" />
+        <p>Figure 6: With rounded bottom-rear</p>
+    </div>
+    
+    <div>
+        <img src="/assets/img/no-rounded-bottom.png" />
+        <p>Figure 7: Without rounded bottom-rear</p>
+    </div>
+</div>
+
+
+<div class="image-container">
+    <div>
+        <img src="/assets/img/rounded-bottom.png" />
+        <p>Figure 6: </p>
+    </div>
+    
+    <div>
+        <img src="/assets/img/no-rounded-bottom.png" />
+        <p>Figure 7:</p>
+    </div>
+</div>
+
+**Model D & E:**
+- Models D and E share features with Models B and C, respectively.
+- It's expected that they would have lower drag coefficients than Model B (due to the rounded
+bottom rear) and higher than Model C (due to the rounded top rear), as confirmed by the bar chart.
+- Notably, Model E, with three regions of curvature, has a higher predicted drag coefficient than
+Model D, suggesting that the features present in Models B and D don't work well together.
+
+
 # Issues During Early Simulations
 Early on in the mesh independent study, the following settings for the divSchemes in fvSchemes were used for initial testing:
 
