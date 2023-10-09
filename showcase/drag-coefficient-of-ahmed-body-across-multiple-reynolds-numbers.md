@@ -12,8 +12,9 @@ collection: do_not_list
     gap: 10px;
 }
 
-.image-container img {
-    width: 50%
+.image-container div {
+    text-align: center;
+    flex: 1;
 }
 
 /* Stack images on smaller screens */
