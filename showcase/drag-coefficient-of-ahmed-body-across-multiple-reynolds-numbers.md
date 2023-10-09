@@ -7,8 +7,6 @@ collection: do_not_list
 ---
 
 # Overview
-**Coming soon**: Results for the flow at varying Reynolds numbers and improvements to reduce the drag coefficient.
-
 This section presents CFD simulations performed on an Ahmed body with a rear slant angle of 25 degrees. The objectives were to accurately model flow over an Ahmed body at various Reynolds numbers and to explore potential improvements for reducing the drag coefficients. Initially, the results of the mesh-independent study and preceding simulations are presented, followed by discussions regarding the processes/decisions made throughout the project, challenges faced while running the simulations, and so on.
 
 Work on the Ahmed body simulations began by estimating the approximate number of cells required, balancing both the accuracy of results and computation time. The mesh-independent study was carried out at a speed of 40m/s (Reynolds number of 2.784 million), with data from [1] indicating a target drag coefficient of around 0.299.
@@ -21,19 +19,19 @@ The mesh independence study results are displayed in the subsequent figures, det
 
 The percentage discrepancy between the theoretical and predicted drag coefficients for the mesh of ~6.5 million cells stood at 1.01%. For ~3.1 million cells, it was 3.34%, and for ~2.5 million cells, it was 13.71%. The ~6.5 million cell mesh required 1.605 hours for 500 iterations, while the ~3.1 million and ~2.5 million cell meshes took 0.76 and 0.64 hours respectively. At a glance, the ~3.1 million cell mesh might seem optimal in terms of precision and time. However, the average y+ for the ~3.1 million cell mesh was approximately 14.22 on the Ahmed body, which isn't satisfactory for the k-omega SST model close to the Ahmed body walls. Hence, the ~6.5 million cell mesh was chosen for subsequent simulations. Additionally, both the ~2.5 and ~3.1 million cell meshes struggled to accurately predict the recirculation zone at the body's rear, as demonstrated in the following figures.
 
-**Mesh Independence Study**
+*Mesh Independence Study*
 ![Mesh Independence Study](/assets/img/mis.png)
 
 
-**Y+ Graph**
+*Y+ Graph*
 ![Y+ Graph](/assets/img/yplus-graph.png)
 
 
-**Incorrect separation predictions at the rear of the body on 2.48M cells**
+*Incorrect separation predictions at the rear of the body on 2.48M cells*
 ![Incorrect separation predictions at the rear of the body on 2.48M cells](/assets/img/2-48-m-cells.png)
 
 
-**Correct separation of the flow on 6.4M cells**
+*Correct separation of the flow on 6.4M cells*
 ![Correct separation of the flow on 6.4M cells](/assets/img/6-4-m-cells.png)
 
 
@@ -46,6 +44,32 @@ The percentage discrepancy between the theoretical and predicted drag coefficien
 
 ![Vortices 3](/assets/img/vortices-3.png)
 
+# Reducing Drag Coefficient
+Investigations to reduce the drag coefficient included simple modifications to the Ahmed body, including
+rounding regions on the top and the rear of the model. In total, 5 models were produced, named from A to
+E, with the following modifications:
+
+*Model A - a 50mm fillet where the 25 degree slant begins*
+![Model A - a 50mm fillet where the 25 degree slant begins](/assets/img/model-a.png)
+
+*Model B - a 50mm fillet where the 25 degree slant ends*
+![Model B - a 50mm fillet where the 25 degree slant ends](/assets/img/model-b.png)
+
+*Model C - a 50mm fillet on the underside at the rear of the body*
+![Model C - a 50mm fillet on the underside at the rear of the body](/assets/img/model-c.png)
+
+*Model D - 50mm fillets where the 25 degree slant begins and on the underside at the rear of the body*
+![Model D - 50mm fillets where the 25 degree slant begins and on the underside at the rear of the body](/assets/img/model-d.png)
+
+*Model E - 50mm fillets in all of the previous locations*
+![Model E - 50mm fillets in all of the previous locations](/assets/img/model-e.png)
+
+Each simulation was ran at with a Reynolds number of 2.145 million and used the same mesh settings as
+the ideal mesh in the mesh independence study, meaning the results should have a good degree of
+credibility. Ideally, each simulation could be verified with wind tunnel experiments but unfortunately I
+don’t have access to one. Below, you'll find a bar chart summarising the simulation results, flow
+screenshots across the body and a brief summary of the finding from each model. From hereon, the
+unmodified Ahmed body will be referred to as ‘base model’.
 
 # Issues During Early Simulations
 Early on in the mesh independent study, the following settings for the divSchemes in fvSchemes were used for initial testing:
