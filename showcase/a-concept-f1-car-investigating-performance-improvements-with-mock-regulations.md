@@ -13,7 +13,6 @@ This section introduces a basic F1 style car model released by an imaginary open
 
 ![F1 Car Concept](/assets/img/concept-f1-car.png)
 
-
 The model is roughly based on the highly successful McLaren MP4/4, and the only regulations to adhere to are as follows:
 
 - Length must not exceed 3 metres
