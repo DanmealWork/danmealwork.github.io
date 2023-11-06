@@ -5,13 +5,24 @@ permalink: /showcase/a-concept-f1-car-investigating-performance-improvements-wit
 collection: do_not_list
 ---
 
+<style>
+.image-container {
+    width: 50%;
+    height: 50%
+}
+</style>
+
 # Coming Soon
 - Currently working on: correctly modeling rotating tyres and overcoming validation problems
 
 # Overview
 This section introduces a basic F1 style car model released by an imaginary open-seat sporting body, along with an imaginary set of regulations, with the aim of applying relevant aerodynamics knowledge and CFD skills to improve the performance of the base model. Shown below is the model produced by this sporting body:
 
-![F1 Car Concept](/assets/img/concept-f1-car.png)
+<div class="image-container" style="margin-bottom: 15px">
+    <div>
+        <img alt="F1 Car Concept" src="/assets/img/concept-f1-car.png" />
+    </div>    
+</div>
 
 The model is roughly based on the highly successful McLaren MP4/4, and the only regulations to adhere to are as follows:
 
