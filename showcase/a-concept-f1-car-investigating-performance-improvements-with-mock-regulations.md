@@ -11,6 +11,9 @@ collection: do_not_list
 # Overview
 This section introduces a basic F1 style car model released by an imaginary open-seat sporting body, along with an imaginary set of regulations, with the aim of applying relevant aerodynamics knowledge and CFD skills to improve the performance of the base model. Shown below is the model produced by this sporting body:
 
+![F1 Car Concept](/assets/img/concept-f1-car.png)
+
+
 The model is roughly based on the highly successful McLaren MP4/4, and the only regulations to adhere to are as follows:
 
 - Length must not exceed 3 metres
