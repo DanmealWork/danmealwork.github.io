@@ -3,6 +3,8 @@ layout: page
 title: "Live Telemetry Charts From BeamNG.drive using Python"
 permalink: /showcase/live-telemetry-charts-from-beamng-drive-using-python
 collection: do_not_list
+
+video-real-time-example: 1erriHw7iiOMMMzk8pusRa3NMqSUyTffK/preview
 ---
 
 # Overview
@@ -42,7 +44,7 @@ sock.setblocking(False)
 ```
 
 ## Receive UDP data and unpack
-I defined a function called receiveData() that would,  initally, have no UDP data and therefore assign a variable data to None, to indicate this lack of data. Whilst data = None, the receiveData()  would try to pull data from the UDP packets BeamNG.drive was sending. If successful,  receiveData()  would then unpack the incoming data and assign more useful variables such as gear, speed, RPM, etc. Finally, receiveData() would exit and return the required values for the graphs.
+I defined a function called receiveData() that would, initially, have no UDP data and therefore assign a variable data to None, to indicate this lack of data. While data == None, the receiveData() would try to pull data from the UDP packets BeamNG.drive was sending. If successful, receiveData() would then unpack the incoming data and assign more useful variables such as gear, speed, RPM, etc. Finally, receiveData() would exit and return the required values for the graphs.
 
 ```python
 def receiveData():
@@ -154,8 +156,13 @@ ani = FuncAnimation(fig, animate, interval=10)
 plt.show()
 ```
 
+# Program Demonstration
+The video below shows a demonstration of the program plotting my inputs for the throttle, brake and clutch (blue, red and green lines respectively), along with the RPM, speed and fuel level of the current vehicle.
 
+{% include googleDrivePlayer.html id=page.video-real-time-example %}
 
+# Final Words
+While the program runs as intended, there are limitations that can be worked on in the future. The main limitation currently is the update rate of the graphs. The program can plot just a single graph very smoothly; however, when more than one graph is required, the program has to plot these simultaneously, leading to slower (but still tolerable) graph plotting.
 
 
 
