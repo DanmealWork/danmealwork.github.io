@@ -13,3 +13,5 @@ While my proficiency in ANSYS Fluent is well-established, I have also recognized
 In addition to my CFD knowledge, I have demonstrated proficiency in utilizing Solidworks for various 3D modeling tasks, effectively translating these skills to other software platforms. Furthermore, I have made extensive use of Overleaf, an online LaTeX editor, to produce high-quality and professional documents.
 
 I believe in the continuous pursuit of knowledge and the adaptability required in the ever-evolving field of Aerospace Engineering. By combining my expertise in ANSYS Fluent with my ongoing efforts to master OpenFOAM, I am well-prepared to contribute effectively to any CFD-related projects and embrace the challenges of the industry.
+
+I am currently employed as a Fluid Mechanics Project Engineer at Engineering CFD LTD.
