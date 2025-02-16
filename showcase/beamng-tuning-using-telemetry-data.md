@@ -65,3 +65,57 @@ As discussed in the previous post, plotting four simultaneous graphs caused the 
 
 
 In this section, setup 1 refers to the car before tuning and setup 2 refers to the car after tuning.
+
+## Turn 1
+I braked at roughly the same point on each lap. Despite many attempts, there’s still time to be found here. I expected the car to hold ~100 mph through the corner, but with both setups, it struggled to stay tight to the kerbs. With setup 2, I had to ease off the throttle slightly to allow more rotation and keep to the kerb. With setup 1, I was more hesitant on the throttle (fear of losing control), meaning I carried less speed through the corner.
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/1.png" />
+    </div>    
+</div>
+Approach to Turn 1
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/2.png" />
+    </div>    
+</div>
+Going through Turn 1
+
+## Turns 2, 3, and 4
+My goal was to ‘straightline’ these turns as much as possible to minimise lateral load changes and reduce sliding. At Turn 2, setup 1 was slightly ahead, but with setup 2, I had more confidence on the throttle and didn’t lose much time.
+
+Turn 3 felt similar with both setups, though with setup 2, I was in second gear to allow extra rotation. The data shows I was able to apply more throttle between Turns 2 and 3 with setup 2.
+
+For Turn 4, I aimed to place the inside tyres over the kerb to slingshot the car around. On both setups, I had to be careful with the throttle, as the right rear tyre was on the grass.
+
+Exiting Turn 4 was tricky since the crest reduced downforce. Too much throttle here would cause the rear tyres to lose traction. With setup 2, I was able to go full throttle with some steering input, whereas with setup 1, I had to wait until the car was mostly straight before applying full power.
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/3.png" />
+    </div>    
+</div>
+Turn 2
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/4.png" />
+    </div>    
+</div>
+Turn 3
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/5.png" />
+    </div>    
+</div>
+Turn 4
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/6.png" />
+    </div>    
+</div>
+Exit of Turn 4
