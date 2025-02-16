@@ -60,11 +60,13 @@ As discussed in the previous post, plotting four simultaneous graphs caused the 
 </div>
 
 # Lap Comparisons
+In this section, setup 1 refers to the car before tuning and setup 2 refers to the car after tuning.
+
 
 {% include googleDrivePlayer.html id=page.comparison-2 %}
 
+Top is pre-tune lap and bottom is post-tune lap.
 
-In this section, setup 1 refers to the car before tuning and setup 2 refers to the car after tuning.
 
 ## Turn 1
 I braked at roughly the same point on each lap. Despite many attempts, there’s still time to be found here. I expected the car to hold ~100 mph through the corner, but with both setups, it struggled to stay tight to the kerbs. With setup 2, I had to ease off the throttle slightly to allow more rotation and keep to the kerb. With setup 1, I was more hesitant on the throttle (fear of losing control), meaning I carried less speed through the corner.
