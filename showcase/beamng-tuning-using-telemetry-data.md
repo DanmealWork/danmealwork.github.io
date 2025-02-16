@@ -119,3 +119,66 @@ Turn 4
     </div>    
 </div>
 Exit of Turn 4
+
+## Turn 5
+On both setups, I braked at the 200m board and downshifted to second gear for the apex. The two setups were similar at this point.
+
+Exiting Turn 5 with setup 2, I was too aggressive with the throttle and steering input, causing what I’d call a bit of a wobble. The data shows a sharp steering correction to regain control. I’m confident that with setup 1, I would have completely lost control. Despite this, both setups were at roughly the same point approaching Turn 6.
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/7.png" />
+    </div>    
+</div>
+Braking for Turn 5
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/8.png" />
+    </div>    
+</div>
+Turn 5
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/9.png" />
+    </div>    
+</div>
+Before the wobble
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/10.png" />
+    </div>    
+</div>
+Mid wobble, note the change in steering input
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/11.png" />
+    </div>    
+</div>
+Just before Turn 6
+
+## Turns 6 and 7
+Turn 6 was similar between setups, though with setup 2, I could apply some throttle mid-corner. The reduced coast locking meant the car rotated more under deceleration, but a touch of throttle helped stabilize it if I felt I was sliding round rather than turning.
+
+If the car wasn’t settled through Turn 6, Turn 7 became difficult. My approach was to go as straight as possible into the apex, shift to first gear, and coast around the corner, aiming for ~50 mph.
+
+The throttle trace shows that with setup 2, I didn’t use the throttle at all through Turn 7. The car rotated far better than with setup 1, allowing me to set up a better line for Turn 8. The steering trace confirms I applied more steering angle with setup 2.
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/12.png" />
+    </div>    
+</div>
+Turn 6
+
+<div style="margin-bottom: 15px">
+    <div>
+        <img alt="Car" src="/assets/img/beamng-tuning-using-telemetry-data/13.png" />
+    </div>    
+</div>
+Just before Turn 7
+
+## Turn 8
