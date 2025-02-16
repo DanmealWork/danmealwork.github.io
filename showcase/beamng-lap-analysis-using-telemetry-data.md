@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "BeamNG Tuning Using Telemetry Data"
-permalink: /showcase/beamng-tuning-using-telemetry-data
+title: "BeamNG Lap Analysis Using Telemetry Data"
+permalink: /showcase/beamng-lap-analysis-using-telemetry-data
 collection: do_not_list
 
 comparison-2: 1dSYReRj66VAmOojPNjEAgLSST8bt6d-e/preview
